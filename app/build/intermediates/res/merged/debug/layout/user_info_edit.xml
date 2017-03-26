@@ -1,0 +1,232 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.sr.masharef.masharef.com.sr.masharef.registration.RegistrationActivity">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_layout"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/action_layout"
+            android:scrollbars="none"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/villa_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/villa_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:textColorHint="@color/white"
+                            android:layout_marginLeft="35dp">
+                            <EditText
+                                android:id="@+id/villa_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="text"
+                                android:hint="@string/villa_no"
+                                android:enabled="false"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/phase_no_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/phase_number" />
+
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/phase_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="text"
+                                android:ems="10"
+                                android:enabled="false"
+                                android:hint="@string/phase_no"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/first_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/first_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"
+                                android:ems="10"
+                                android:hint="@string/first_name"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/last_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences|textPersonName"
+                                android:ems="10"
+                                android:hint="@string/last_name"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/gender_rdo_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:theme="@style/Theme.App.Base"
+                        android:visibility="gone"
+                        android:padding="10dp">
+
+                        <RadioButton
+                            android:id="@+id/male_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male"
+
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/female_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/radioButton"
+                            android:layout_marginStart="30dp"
+                            android:layout_toEndOf="@+id/radioButton"
+                            android:text="@string/female"
+                            android:textColor="@color/white" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/action_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/button_active"
+                android:text="@string/update"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

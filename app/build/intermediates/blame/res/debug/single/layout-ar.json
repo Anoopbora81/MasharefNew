@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\all_events_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\all_events_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\custom_actionbar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\custom_actionbar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\inprogress_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\inprogress_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_mobile_verify.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\fragment_mobile_verify.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\account_review.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\account_review.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_login.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\member_information.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\member_information.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_registration.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\activity_registration.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\spinner_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\add_contact.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\add_contact.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\calendar_day_gridcell.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\calendar_day_gridcell.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\phone_cat_opt_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\phone_cat_opt_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_video.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\activity_video.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\phone_person_details.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\phone_person_details.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_add_sub_account.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\fragment_add_sub_account.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_mobile_code_verify.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\fragment_mobile_code_verify.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\spinner_text.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\spinner_text.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\add_sub.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\add_sub.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\other_information.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\other_information.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\row_spinner.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\row_spinner.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\row_textview_spinner.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\row_textview_spinner.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\ratingbar_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\ratingbar_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\country_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\country_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\simple_calendar_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\simple_calendar_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_terms_conditions.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\fragment_terms_conditions.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\sub_account_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\sub_account_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\forget_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\forget_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\activity_phone.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\activity_phone.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\monthly_events_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\monthly_events_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\fragment_event_detail.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\fragment_event_detail.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\thanks_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\thanks_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout-ar\\phone_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout-ar\\phone_row_list.xml"
+    }
+]

@@ -1,0 +1,431 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.sr.masharef.registration.RegistrationActivity">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_layout"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/action_layout"
+            android:scrollbars="none"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/info_edit_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    >
+
+                    <ImageView
+                        android:id="@+id/edit_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@mipmap/ic_edit"
+                        android:layout_margin="7dp"
+                        />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_below="@+id/info_edit_layout">
+
+                    <RelativeLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/villa_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/villa_ic" />
+
+
+                            <TextView
+                                android:id="@+id/villa_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/villa_icon"
+                                android:layout_marginLeft="5dp"
+                                android:text="xxx"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        >
+
+                        <ImageView
+                            android:id="@+id/phase_no_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/phase_number" />
+
+
+
+                            <TextView
+                                android:id="@+id/phase_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/phase_no_icon"
+                                android:layout_marginLeft="5dp"
+                                android:text="xxx"
+                                android:textColor="@color/white"
+                                android:layout_centerVertical="true"
+                                android:layout_marginBottom="5dp"/>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/first_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+
+                            <TextView
+                                android:id="@+id/first_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/first_name_icon"
+                                android:layout_marginLeft="9dp"
+                                android:text="xxx"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/last_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+
+                            <TextView
+                                android:id="@+id/last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/last_name_icon"
+                                android:layout_marginLeft="9dp"
+                                android:text="xxx"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/gender_rdo_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:theme="@style/Theme.App.Base"
+                        android:visibility="gone"
+                        android:padding="10dp">
+
+                        <RadioButton
+                            android:id="@+id/male_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male"
+
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/female_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/radioButton"
+                            android:layout_marginStart="30dp"
+                            android:layout_toEndOf="@+id/radioButton"
+                            android:text="@string/female"
+                            android:textColor="@color/white" />
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+                <!---->
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="5dp"
+                    android:visibility="gone"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/mail_edit_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        >
+
+                        <ImageView
+                            android:id="@+id/edit_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@mipmap/ic_edit"
+                            android:layout_margin="7dp"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_below="@+id/mail_edit_layout">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/email_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/ic_email" />
+
+
+                            <TextView
+                                android:id="@+id/email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/email_icon"
+                                android:layout_marginLeft="5dp"
+                                android:text="xxx"
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+
+                        </RelativeLayout>
+
+                        <!--<RadioGroup-->
+                            <!--android:id="@+id/gender_rdo_group"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginTop="25dp"-->
+                            <!--android:background="@drawable/border"-->
+                            <!--android:orientation="horizontal"-->
+                            <!--android:theme="@style/Theme.App.Base"-->
+                            <!--android:visibility="gone"-->
+                            <!--android:padding="10dp">-->
+
+                            <!--<RadioButton-->
+                                <!--android:id="@+id/male_rdo"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/male"-->
+
+                                <!--android:textColor="@color/white" />-->
+
+                            <!--<RadioButton-->
+                                <!--android:id="@+id/female_rdo"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_alignTop="@+id/radioButton"-->
+                                <!--android:layout_marginStart="30dp"-->
+                                <!--android:layout_toEndOf="@+id/radioButton"-->
+                                <!--android:text="@string/female"-->
+                                <!--android:textColor="@color/white" />-->
+
+                        <!--</RadioGroup>-->
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <!---->
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/password_edit_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border"
+                        >
+
+                        <ImageView
+                            android:id="@+id/edit_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:background="@mipmap/ic_edit"
+                            android:layout_margin="7dp"
+                            />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp"
+                        android:layout_below="@+id/password_edit_layout">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp">
+
+                            <ImageView
+                                android:id="@+id/password_icon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/password_ic" />
+
+
+                            <TextView
+                                android:id="@+id/password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/password_icon"
+                                android:layout_marginLeft="5dp"
+                                android:text="********"
+
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+
+                        </RelativeLayout>
+
+                        <!--<RadioGroup-->
+
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_marginTop="25dp"-->
+                            <!--android:background="@drawable/border"-->
+                            <!--android:orientation="horizontal"-->
+                            <!--android:theme="@style/Theme.App.Base"-->
+                            <!--android:visibility="gone"-->
+                            <!--android:padding="10dp">-->
+
+                            <!--<RadioButton-->
+                                <!--android:id="@+id/male_rdo"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:text="@string/male"-->
+
+                                <!--android:textColor="@color/white" />-->
+
+                            <!--<RadioButton-->
+                                <!--android:id="@+id/female_rdo"-->
+                                <!--android:layout_width="wrap_content"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_alignTop="@+id/radioButton"-->
+                                <!--android:layout_marginStart="30dp"-->
+                                <!--android:layout_toEndOf="@+id/radioButton"-->
+                                <!--android:text="@string/female"-->
+                                <!--android:textColor="@color/white" />-->
+
+                        <!--</RadioGroup>-->
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

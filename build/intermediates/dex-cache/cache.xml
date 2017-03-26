@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_1faa2515deb59f3fbe4bbb9ed683d28336e18ecc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_82ef99d93e9e517fc0775f5790417e002dd2c12f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.15\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6ef01b734d9d89338a932928c237c7b741f007af">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.15_838bbafe35a11ed925b5c8e56e2c5012d7a5c225\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_f8a3c850631777510413761034a8abf47a7eda7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.11\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cfa40983f47c1b9a9f2ac940ee6da130cd03c6e1">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.11_8139549c13c9c2ed9f33edb1ad152823a6735e55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_81626c865518ed4cbe39432451aec9beac47bf6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3_b8cd861431437561b6421550afa0bc9c544a934b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_5990581fa82c4c18095e3df540974b732ee184f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.2.1_587c2a4b9786514d4d0adf0bbcc0fc5139b4f650\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_2d824b7fe3f5f15587e72aaaf8ae0e0d69358061\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7780b9aba418f4e22878f48cd77372a7688bb0b7">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.6.6_40efb796b55b44857b98e684429dd1091d5433f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.commonsware.cwac\sqlcipher-for-android\3.3.1\jars\libs\sqlcipher.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="42d88faf28b689a3cb01d123ca71628be98e5520">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqlcipher_fbca6e66a871c0cfd63d8b968eb11d5f32b5b198\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_f812a94a08f223e5f3312f29055bc27c08f6062a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.0_06deca11cec6b4efddd37a68dd649c7f0f6310a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.1\c261495d1e01df849cdb3cbc941564018f0d3539\joda-time-2.9.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c261495d1e01df849cdb3cbc941564018f0d3539">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.1_85ab2f89139251f06838db9566c617e786f30430\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.0_dd23672ff9823f0a44e0e55fbc7eff3c517da52c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_8f0d5c1aa75e921b7f6b9897ad410abfc485dc72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.2.0_d438aa46b492aa88f0d970262d541b0f0da30acc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.commonsware.cwac\sqlcipher-for-android\3.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fa8aed21e372d1a853ec001bf635a8c5ae96e9f2">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.commonsware.cwac-sqlcipher-for-android-3.3.1_ac4c7adb09e7044f998d0c2bce7dda8111692e7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_b368e479b79968cb3058600eff148049ab3fbc2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.2.0_32d2ce0eb14ab95acaa8af43d87eec1251e6a430\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.0_7d5e5642376d833541faef7754bfd868fc2f5ed6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_c208078ce34568f9d271799a2b5ebc881c856447\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_58a8dbf1dc00002ecd0273be6b3b5f2fd96923d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a76b07a416089228adc86fecc86d0a6e2d71e409">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.2.3_65f763850ae5c039e52e6c35b3053d3b247cc939\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\FFmpegAndroid-0.3.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="722acae466ccefebedf8a6631384e83bf3139f7c">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\intermediates-exploded-aar-FFmpegAndroid-0.3.2_78b1690704aeceb1030682cb554bd6ba57adeb18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-io\1.3.2\b6dde38349ba9bb5e6ea6320531eae969985dae5\commons-io-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-1.3.2_e67cfdd09d4a6dd7b3872675aa45665e2bfcdbf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_bde3034d951e4741d685f9e6758fbfe6c214d12a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.15\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4803488041c259d0b6d81ca4255379ab8a7e8dfe">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.15_341b28322797651f9e538ea3b8ef233ee05e144b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\com.googlecode.plist\dd-plist\1.8\482309f2149a09c1741549b7a24768cb44c95849\dd-plist-1.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="482309f2149a09c1741549b7a24768cb44c95849">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\dd-plist-1.8_0299327223369048c46ff5583956500c91093467\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_a60155ea2d6bcda75cca78292d6c30c80825f83d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_bcb238ae3c91f860e3cd9ae66f726017123417ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5cd3fabfed5643213c84954f50b0d7ad4ca8f11a">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0fa7509e52b02355b5f5c2c0b60cc2c9033cc036\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d5b0e859b5e3ad94c1e3768f83ac2d1c3702b823">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_70c7c650945e4d0d69fe4d29d7ef40c7eaa28c5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AnoopBora\.gradle\caches\modules-2\files-2.1\com.googlecode.libphonenumber\libphonenumber\7.1.1\cdb737e7932c39026fb5d061c5300370d9a4ce8\libphonenumber-7.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0cdb737e7932c39026fb5d061c5300370d9a4ce8">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\libphonenumber-7.1.1_027d9e1a3b1249531261c2fc81e3ef3f26679994\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_4fd4bc06a92f60cf3d83016daa7418330910bdae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_6c0c9c3cb5a00a4fd61301c8eaaa344b1f965ac5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="E:\SR_REPO\Masharef\Masharef\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.0_288fa33608a8cde847a4de7c558295b63124637f\classes.dex" />
+    </item>
+
+</items>

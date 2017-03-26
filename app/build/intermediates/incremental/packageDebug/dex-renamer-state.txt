@@ -1,0 +1,7 @@
+#Thu Mar 16 17:48:35 IST 2017
+base.0=E\:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_70c7c650945e4d0d69fe4d29d7ef40c7eaa28c5c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0fa7509e52b02355b5f5c2c0b60cc2c9033cc036\\classes.dex
+base.1=E\:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_0fa7509e52b02355b5f5c2c0b60cc2c9033cc036
+file.0=E\:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_70c7c650945e4d0d69fe4d29d7ef40c7eaa28c5c\\classes.dex

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\menu\\dashoboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\menu\\dashoboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_dashoboard_drawer.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\menu\\activity_dashoboard_drawer.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\menu\\phonebook.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\menu\\phonebook.xml"
+    }
+]

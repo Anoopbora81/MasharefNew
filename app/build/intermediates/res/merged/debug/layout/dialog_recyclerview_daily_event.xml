@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dailyEventTitle"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Events"
+        style="@style/M_TextViewLabelStyle"
+        android:gravity= "center"
+        />
+ <!--   <LinearLayout
+        android:background="@color/list_row_color"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"></TextView>
+    </LinearLayout>-->
+    <View
+        android:layout_margin="5dp"
+        android:id="@+id/viewLineSeperator"
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/color_line_seperator"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerViewDailyEvents"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:scrollbars="vertical"
+        android:visibility="gone"/>
+</LinearLayout>

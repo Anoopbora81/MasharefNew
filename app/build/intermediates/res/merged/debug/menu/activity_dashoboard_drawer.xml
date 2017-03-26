@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@mipmap/dr_dashboard"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@mipmap/dr_event"
+            android:title="@string/event" />
+        <item
+            android:id="@+id/nav_phonebook"
+            android:icon="@mipmap/dr_phone"
+            android:title="@string/phonebook" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@mipmap/dr_chat"
+            android:title="@string/chat" />
+
+        <item
+            android:id="@+id/nav_gallary"
+            android:icon="@mipmap/dr_gallery"
+            android:title="@string/gallary" />
+
+        <item
+            android:id="@+id/nav_Voting"
+            android:icon="@mipmap/dr_voting_system"
+            android:title="@string/voting" />
+
+        <item
+            android:id="@+id/nav_voting_form"
+            android:icon="@mipmap/dr_questionnaire_and_forms"
+            android:title="@string/question_and_form" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/dr_settings"
+                android:title="@string/setting" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/dr_about"
+                android:title="@string/about" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/dr_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

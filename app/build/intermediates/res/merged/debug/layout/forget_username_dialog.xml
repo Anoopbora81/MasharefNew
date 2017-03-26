@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/titleF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:layout_marginTop="15dp"
+    android:textSize="16sp"
+    android:gravity="center"
+    android:text="@string/forgot_password"/>
+
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:id="@+id/editTextUsername"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleF"
+        android:layout_centerInParent="true">
+<!--
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/Theme.App.Base"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="5dp">
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/editTextVillForget"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:hint="@string/villa_no"
+                android:textColor="@color/white"/>
+        </android.support.design.widget.TextInputLayout>-->
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/editTextVillNoForgetUsername"
+            android:hint="Villa Number"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            />
+
+      <!--  <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:theme="@style/Theme.App.Base"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editTextVillForget">
+            <EditText
+                android:id="@+id/editTextUserForget"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/editTextVillForget"
+                android:layout_width="match_parent"
+                android:background="@null"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:hint="@string/user_name"
+                android:textColor="@color/white"/>
+        </android.support.design.widget.TextInputLayout>-->
+        <EditText
+            android:id="@+id/editTextMobileNoForgetUsername"
+            android:hint="Mobile Number"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editTextVillNoForgetUsername"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:inputType="phone"
+            />
+
+      <!--  <EditText
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/contact_phone_number_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phone_number"
+            android:layout_marginBottom="10dp"
+            android:maxLength="12"
+            />-->
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/buttonCancelF"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_alignParentStart="true"
+        android:background="@color/button_deactive"
+        android:textColor="@color/white"
+        android:text="Cancel" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/buttonDone"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/button_active"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_toRightOf="@+id/buttonCancelF"
+        android:textColor="@color/white" />
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUsername"
+       >
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buttonCancelF"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@color/button_deactive"
+            android:textColor="@color/white"
+            android:text="Cancel" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buttonDone"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@color/button_active"
+            android:layout_toRightOf="@+id/buttonCancelF"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+-->
+</RelativeLayout>

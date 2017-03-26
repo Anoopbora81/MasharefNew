@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sr.masharef.masharef.com.sr.masharef.event.CreateNewEventFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Event Name"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editTextEventName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Description"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+             />
+        <EditText
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Venue"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editTextVenue" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Date"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editTextEventDate"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:text="Time"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextTime"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Gender"
+            android:layout_gravity="center_vertical"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroupGender">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/radioButtonMale"
+                android:checked="true"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:id="@+id/radioButtonFemale"
+                android:checked="false" />
+        </RadioGroup>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Cost"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/editTextCost"
+            android:ems="10" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Dead Line"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:id="@+id/editTextDeadLine"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonGetApproval" />
+
+</LinearLayout>

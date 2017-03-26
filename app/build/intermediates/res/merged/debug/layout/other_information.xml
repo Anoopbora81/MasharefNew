@@ -1,0 +1,289 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.sr.masharef.masharef.com.sr.masharef.registration.RegistrationActivity">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/save"
+        android:layout_below="@+id/header_layout"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/villa_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/ic_phone" />
+
+                <!--<EditText
+                    android:id="@+id/landline_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/villa_icon"
+                    android:ems="10"
+                    android:hint="@string/landline_number"
+                    android:inputType="phone"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/Theme.App.Base"
+                    android:layout_toRightOf="@+id/villa_icon"
+                    android:textColorHint="@color/white"
+                    android:layout_marginLeft="25dp">
+                    <EditText
+                        android:id="@+id/landline_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:hint="@string/landline_number"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="5dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/occupation_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/ic_employee_card" />
+
+               <!-- <EditText
+                    android:id="@+id/occupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/occupation_icon"
+                    android:ems="10"
+                    android:hint="@string/occupation"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />-->
+                <!--<android.support.design.widget.TextInputLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:theme="@style/Theme.App.Base"-->
+                    <!--android:layout_toRightOf="@+id/occupation_icon"-->
+                    <!--android:textColorHint="@color/white"-->
+                    <!--android:layout_marginLeft="25dp">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/occupation"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:inputType="textCapSentences"-->
+                        <!--android:ems="10"-->
+                        <!--android:hint="@string/occupation"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:layout_marginBottom="5dp"/>-->
+                <!--</android.support.design.widget.TextInputLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/occupation_layout"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_toRightOf="@+id/occupation_icon"
+                    android:background="@drawable/border">
+
+                    <Spinner
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/occupation_spinner"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="5dp"
+
+                        android:theme="@style/Theme.App.SpinnerBroder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/work_institute_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/ic_computer" />
+
+                <!--<EditText
+                    android:id="@+id/work_institute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/work_institute_icon"
+                    android:ems="10"
+                    android:hint="@string/work_institute"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/Theme.App.Base"
+                    android:layout_toRightOf="@+id/work_institute_icon"
+                    android:textColorHint="@color/white"
+                    android:layout_marginLeft="25dp">
+
+                    <EditText
+                        android:id="@+id/work_institute"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:ems="10"
+                        android:hint="@string/work_institute"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="5dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/work_address_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/villa_ic" />
+
+               <!-- <EditText
+                    android:id="@+id/work_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/work_address_icon"
+                    android:ems="10"
+                    android:hint="@string/work_address"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/Theme.App.Base"
+                    android:layout_toRightOf="@+id/work_address_icon"
+                    android:textColorHint="@color/white"
+                    android:layout_marginLeft="25dp">
+
+                    <EditText
+                        android:id="@+id/work_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:ems="10"
+                        android:hint="@string/work_address"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="5dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/total_car_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@null"
+                    android:src="@mipmap/ic_cars" />
+
+                <!--<EditText
+                    android:id="@+id/total_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/total_car_icon"
+                    android:ems="10"
+                    android:hint="@string/total_car"
+                    android:inputType="number"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:theme="@style/Theme.App.Base"
+                    android:layout_toRightOf="@+id/total_car_icon"
+                    android:textColorHint="@color/white"
+                    android:layout_marginLeft="25dp">
+
+                    <EditText
+                        android:id="@+id/total_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:hint="@string/total_car"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="5dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="35dp"
+        android:background="@color/button_active"
+        android:text="@string/save_and_continoue"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

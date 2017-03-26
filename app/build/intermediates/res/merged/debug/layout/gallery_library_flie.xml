@@ -1,0 +1,219 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.sr.masharef.gallary.GalleryLibraryFlie">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/white_background">
+    <LinearLayout
+        android:id="@+id/galley_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/library_radio_buttons"
+        android:layout_centerInParent="true">
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/library_image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+    <ImageView
+        android:id="@+id/library_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/library_video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/library_video"
+         />
+        <View
+            android:id="@+id/controller_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/white"
+            android:id="@+id/library_audio_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="20dp"
+            android:visibility="visible">
+
+
+            <RelativeLayout
+                android:id="@+id/audio_layout"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/library_seekBar"
+                android:layout_centerVertical="true"
+                android:progressTint="@color/text_color_orange"
+                android:thumbTint="@color/text_color_orange"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/play_image"
+                android:id="@+id/play_button"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/pause_image"
+                android:id="@+id/pause_button"
+                />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/audio_image"
+                android:layout_above="@+id/audio_layout"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/library_buttons"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonCancelGalleryLib"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/button_deactive"
+            android:textColor="@color/white"
+            android:text="@string/forgot_cancel" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/buttondoneGalleryLib"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_done"
+            android:background="@color/button_active"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+        <!--<LinearLayout
+            android:id="@+id/library_radio_buttons"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/library_buttons"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/buttonCancelGalleryLib"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+            <RadioButton
+                android:id="@+id/buttonCancelGalleryLib"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+
+
+        </LinearLayout>-->
+        <RadioGroup
+            android:id="@+id/library_radio_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/library_buttons"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:theme="@style/Theme.App.RadioButtonsSelection">
+
+            <RadioButton
+                android:id="@+id/private_rdo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery_private"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/public_rdo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/gallery_public"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</RelativeLayout>

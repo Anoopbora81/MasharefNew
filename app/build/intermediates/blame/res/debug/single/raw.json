@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\raw\\masharef.mp4",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\raw\\masharef.mp4"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\raw\\splash_video.mp4",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\raw\\splash_video.mp4"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\raw\\itudb.plist",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\raw\\itudb.plist"
+    }
+]

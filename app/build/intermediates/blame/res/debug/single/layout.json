@@ -1,0 +1,518 @@
+[
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_sub.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\add_sub.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\country_list_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\country_list_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_images.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_images.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\custom_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_text.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\spinner_text.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_add_sub_account.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_add_sub_account.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar_day_gridcell.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\calendar_day_gridcell.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dashboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\internet_info_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\internet_info_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_voting.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_voting.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\all_events_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\all_events_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_dashoboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\app_bar_dashoboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_information.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\member_information.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\other_information.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\other_information.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_country_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_country_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_phone_actionbar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\custom_phone_actionbar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_video_grid_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_video_grid_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reg_row_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\reg_row_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_grid_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_grid_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub_account_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\sub_account_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_new_contact.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\add_new_contact.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\upload_files.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\upload_files.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dashoboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_dashoboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\country_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\country_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_book_option.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\phone_book_option.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\monthly_events_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\monthly_events_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_review.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\account_review.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forget_username_dialog.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\forget_username_dialog.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_header.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\dialog_header.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_contact.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\add_contact.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mobile_verify.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_mobile_verify.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thanks_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\thanks_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_cat_opt_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\phone_cat_opt_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_dashoboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\nav_header_dashoboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\language_row.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\language_row.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_video.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_video.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_verification.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_account_verification.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_person_details.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\phone_person_details.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_audio.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_audio.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\owner_row_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\owner_row_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_spinner_text.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\phone_spinner_text.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_details.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_details.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_recyclerview_daily_event.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\dialog_recyclerview_daily_event.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_password_edit.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\user_password_edit.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mobile_code_verify.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_mobile_code_verify.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_terms_conditions.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_terms_conditions.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_event.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_event.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_create_new_event.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_create_new_event.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gallery.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\forget_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\forget_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\multi_lang_dialoga_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\multi_lang_dialoga_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gallary.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_gallary.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inprogress_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\inprogress_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_stragged_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\test_stragged_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registration.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_event_detail.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_event_detail.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_textview_spinner.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\row_textview_spinner.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_choose_dialog.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_choose_dialog.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_dashoboard.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\content_dashoboard.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ratingbar_dialog_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\ratingbar_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_spinner.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\row_spinner.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_info.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\user_info.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\owner_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\owner_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\activity_phone.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_question_form.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\fragment_question_form.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_calendar_view.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\simple_calendar_view.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phone_row_list.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\phone_row_list.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_mail_edit.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\user_mail_edit.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_library_flie.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\gallery_library_flie.xml"
+    },
+    {
+        "merged": "E:\\SR_REPO\\Masharef\\Masharef\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_info_edit.xml",
+        "source": "E:\\SR_REPO\\Masharef\\Masharef\\app\\src\\main\\res\\layout\\user_info_edit.xml"
+    }
+]

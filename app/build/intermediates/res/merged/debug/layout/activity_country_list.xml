@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <include 
+	    android:id="@+id/header_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    layout="@layout/dialog_header"/>
+    
+    <com.sr.masharef.customwidget.IndexableListView
+       	android:id="@+id/country_list"
+       	android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+       	android:layout_below="@id/header_layout"
+       	android:textFilterEnabled="true"
+ 		android:dividerHeight="2dp"
+ 		android:fadingEdge="none"
+ 		android:divider="@android:color/transparent"
+ 		android:layout_marginLeft="5dp"
+ 		android:layout_marginRight="5dp"
+       	android:background="@android:color/white"/>
+    
+</RelativeLayout>

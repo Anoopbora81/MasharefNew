@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRatingName"
+        style="@style/M_TextViewLabelStyle"/>
+
+    <LinearLayout
+        android:id="@+id/rating_barLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewRatingName"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/star_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_star2"/>
+        <ImageView
+            android:id="@+id/star_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_star2"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/star_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_star2"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/star_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_star2"
+            android:layout_marginRight="5dp"/>
+        <ImageView
+            android:id="@+id/star_image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_star2"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+ <!--   <RatingBar
+        android:layout_marginTop="10dp"
+        android:id="@+id/myRatingBarDialog" style="@style/customRatingBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+-->
+
+<!--    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/reviewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/rating_barLayout">
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/textViewReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review:"/>
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:id="@+id/textViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/reviewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_border"
+        android:layout_below="@+id/rating_barLayout"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:id="@+id/editTextReview"
+            android:hint="@string/write_a_short_review"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/reviewLayout"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/buttonCancelF"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reviewLayout"
+            android:layout_alignParentStart="true"
+            android:background="@color/button_deactive"
+            android:textColor="@color/white"
+            android:text="@string/forgot_cancel" />
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:id="@+id/buttonDone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_submit"
+            android:background="@color/button_active"
+            android:layout_below="@+id/reviewLayout"
+            android:layout_toRightOf="@+id/buttonCancelF"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

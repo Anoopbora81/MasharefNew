@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <!--<item android:id="@+id/phonebook_item"
+        android:icon="@drawable/del_plus2"
+        android:title="phonebook"
+        myapp:showAsAction="ifRoom" />-->
+</menu>
