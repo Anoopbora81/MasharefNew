@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+<!--
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_viewEventsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="5dp"
+        card_view:cardElevation="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Event Name:"
+                    style="@style/M_TextViewFieldStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_orange"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewMonthlyEventName"
+                    style="@style/M_TextViewSmallStyle"
+                    android:textColor="@color/text_color_orange"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Venue:"
+                    style="@style/M_TextViewFieldStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/M_TextViewSmallStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewMonthlyVanue" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Gender:"
+                    style="@style/M_TextViewFieldStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/M_TextViewSmallStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewMonthlyGender" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/M_TextViewFieldStyle"
+                    android:text="Cost:"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.5"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/M_TextViewSmallStyle"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewMonthlyCost" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/M_TextViewFieldStyle"
+                        android:text="Date:"
+                        android:layout_width="0dp"
+                        android:layout_weight="4.5"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        style="@style/M_TextViewSmallStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewMonthlyEventsDate" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        style="@style/M_TextViewFieldStyle"
+                        android:text="Time:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        style="@style/M_TextViewSmallStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewMonthlyEventsTime" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="0.75dp"
+                android:background="@color/color_line_seperator"/>
+       <!-- </LinearLayout>
+    </android.support.v7.widget.CardView>-->
+</LinearLayout>

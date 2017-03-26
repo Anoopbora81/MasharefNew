@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="villa_no">رقم الفيلا</string>
+    <string name="phase_no">رقم المرحلة</string>
+    <string name="user_name">الإيميل</string>
+
+    <string name="register">التسجيل</string>
+    <string name="login">الدخول</string>
+    <string name="password">الرمز السري</string>
+
+    <string name="registration">التسجيل</string>
+    <string name="first_name">الإسم الأول</string>
+    <string name="last_name">اللقب</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="email">الإيميل</string>
+    <string name="confirm_email">تأكيد الإيميل</string>
+    <string name="confirm_password">تأكيد الرمز السري</string>
+    <string name="i_am_the_owner">أنا المالك</string>
+    <string name="i_am_a_renter">أنا المستأجر</string>
+    <string name="select_owner">اختر المالك</string>
+    <string name="select">اختر</string>
+    <string name="country_code">رمز الدولة</string>
+    <string name="send_sms_msg">يرجى ادخال رقم الجوال الخاص بك للحصول على رمز التحقق</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="send_veri_msg_code">ارسال رقم التحقق عبر الرسائل القصيرة</string>
+    <string name="confirm_your_number">تأكيد رقم الجوال</string>
+    <string name="otp">أدخل رمز التحقق</string>
+    <string name="confirm_otp">تأكيد رمز التحقق</string>
+    <!--<string name="sent_msg_title">Ø£Ø±Ø³Ù„Ù†Ø§ Ø±Ø³Ø§Ù„Ø© Ù†ØµÙŠØ© Ø¥Ù„Ù‰ Ùª 1 $ sÙ…Ø¹ Ø±Ù…Ø² </string>-->
+    <!--<string name="sent_msg_title">Ø±Ø³Ù„Ù†Ø§ Ø±Ø³Ø§Ù„Ù‡ Ù†ØµÙŠÙ‡ Ø§Ù„Ù‰ s$1% Ù…Ø¹ Ø´ÙØ±Ù‡</string>-->
+    <string name="verify">تأكيد¯</string>
+    <string name="resend_code">إعادة إرسال الرمز</string>
+    <string name="member_information">معلومات أعضاء العائلة</string>
+    <string name="adult">بالغ</string>
+    <string name="kids">طفل</string>
+    <string name="servent">عاملة منزلية</string>
+    <string name="drivers">سائق</string>
+    <string name="save_and_continoue">الحفظ و الاستمرار</string>
+    <string name="landline_number">هاتف المنزل</string>
+    <string name="occupation">الوظيفة</string>
+    <string name="work_institute">مكان العمل</string>
+    <string name="work_address">عنوان العمل</string>
+    <string name="total_car">المجموع الكلي للسيارات</string>
+    <string name="terms_and_conditions">الشروط والأحكام</string>
+    <string name="accept">قبول</string>
+    <string name="search">بحث</string>
+    <string name="decline">رفض</string>
+    <string name="add_sub_account">إضافة حساب لأعضاء العائلة</string>
+    <string name="add_sub_account_point1">يرجى الضغط على زر إضافة لإضافة حساب أحد أفراد أسرته الفرعية
+</string>
+    <string name="add_sub_account_point2">يمكنك إضافة 4 حسابات للعائلى بحد أقصى
+</string>
+    <string name="add_sub_account_point3">ليست إلزامية  ويمكن الإضافة في وقت لاحق</string>
+    <string name="ADDNEW">أضف جديد</string>
+    <string name="skip">تخطي</string>
+    <string name="refresh">تحديث</string>
+    <string name="finish">الانتهاء</string>
+    <string name="add">أضف</string>
+    <string name="wait_Approval">شكرالك ، تمت عملية التسجيل و بانتظار الموافقة من المشرف</string>
+    <string name="logout">خروج</string>
+    <string name="forgot_password_en">نسيت الرمز السري؟</string>
+    <string name="forgot_password_title">هل نسيت الرمز السري؟</string>
+    <string name="forgot_submit">عرض</string>
+    <string name="forgot_cancel">إلغاء</string>
+    <string name="forgot_click">أنقر هنا</string>
+    <string name="select_phase">اختر المرحلة</string>
+    <string name="or">أو</string>
+    <string name="Phone_number">رقم جوال المالك</string>
+    <string name="owner_detail">تفاصيل المالك</string>
+
+
+    <!---->
+
+    <string name="setting">الإعدادات</string>
+    <string name="about">حول</string>
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="event">جدول الفعاليات</string>
+    <string name="phonebook">دليل الهاتف</string>
+    <string name="chat">الدردشة</string>
+    <string name="gallary">الاستديو</string>
+    <string name="voting">التصويت</string>
+    <string name="question_and_form">استبيانات و طلبات</string>
+
+    <string name="dash_phonebook">دليل الهاتف</string>
+    <string name="dash_chat">الدردشة</string>
+    <string name="dash_gallery">الاستديو</string>
+    <string name="dash_voting_system">نظام التصويت</string>
+    <string name="dash_forms">استبيانات و نماذج</string>
+    <string name="dash_event">جدول الفعاليات</string>
+
+    <string name="logout_msg">هل أنت متاكد من طلب تسجيل الخروج؟</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لأ</string>
+    <string name="done">انتهى</string>
+
+    <string name="error">خطأ</string>
+    <string name="villa_no_msg">الرجاء إدخال رقم الفيلا</string>
+    <string name="user_name_msg">الرجاء إدخال اسم المستخدم </string>
+
+    <string name="forgetPassword">إرسال كلمة المرور إلى الجوال المسجل</string>
+
+    <string name="crop__wait">نرجو الانتظار..</string>
+    <string name="wait">نرجو الانتظار</string>
+    <string name="ar">عربي</string>
+    <string name="phone_workplace">مكان العمل</string>
+
+    <!---->
+
+    <string name="name">اسم:</string>
+    <string name="current_rating">التصويت الحالي</string>
+    <string name="rate">معدل </string>
+    <string name="occupation_withcolon">الاحتلال:</string>
+    <string name="workplace_withcolon">مكان العمل:</string>
+    <string name="mobile_no">رقم المحمول:</string>
+    <string name="write_a_short_review">إرسال مراجعة القصيرة</string>
+    <string name="rate_to">معدل ل</string>
+    <string name="select_occupation">تحديد احتلال </string>
+    <string name="rating_submit">تصنيف قدمت إلى خادم !!</string>
+    <string name="select_category">اختر الفئة</string>
+    <string name="reques_addding_contact">طلب إرسال لإضافة اتصال !!</string>
+
+    <string name="getting_pb_category">الحصول على الفئة ...</string>
+    <string name="getting_pb_contacklist">الحصول على قائمة الاتصال ...</string>
+    <string name="adding_contact">مضيفا الاتصال ...</string>
+    <string name="ratingstatus">تحديث تقييم لهذا الاتصال ...</string>
+    <string name="in_progress_msg">ونحن نعمل على هذه الميزة الجديدة والمثيرة!</string>
+    <string name="we_will_be_let_you">ونحن سوف تتيح لك معرفة متى أصبح جاهزا</string>
+    <string name="ok">حسنا</string>
+    <string name="enployee">موظف</string>
+    <string name="businessperson">رجل أعمال</string>
+    <string name="retired">متقاعد</string>
+    <string name="other">آخر</string>
+    <string name="please_enter">تفضل %1$s</string>
+    <string name="add_contact">إضافة جهة اتصال</string>
+    <string name="app_common_error_msg">وجه الفتاة! هناك خطأ ما. حاول مرة اخرى.</string>
+    <string name="app_name">مشارف</string>
+
+    <string name="communicate">نقل</string>
+    <string name="getting_phase_number">الحصول على مراحل ...</string>
+    <string name="regsister_gender">حدد نوع الجنس</string>
+    <string name="register_owner">حدد المالك أو المستأجر</string>
+    <string name="invalid">غير صالحة %1$s</string>
+    <string name="registering">تسجيل</string>
+    <string name="getting_country_list">الحصول على قائمة الدول ...</string>
+    <string name="select_country">اختر دولة</string>
+    <string name="signing_in">تسجيل الدخول</string>
+    <string name="select_country_code">حدد رمز البلد</string>
+    <string name="processing_number">عدد تجهيز ال ...</string>
+    <string name="processing_code">كود معالجة ...</string>
+    <string name="updating_profile">تحديث الملف الشخصي</string>
+    <string name="updating_user">تحديث العضو ...</string>
+    <string name="select_relation">حدد العلاقة</string>
+    <string name="not_any_contact_added">لا يوجد أي اتصال المضافة لهذه الفئة !!</string>
+    <string name="success">نجاح</string>
+    <string name="processing_data">معالجة البيانات...</string>
+    <string name="checking_profile">فحص الملف الشخصي</string>
+    <string name="login_error">خطأ في تسجيل الدخول</string>
+    <string name="registration_error">خطأ تسجيل</string>
+
+
+
+
+
+
+    <string name="gallery_upload_success">Upload Success</string>
+    <string name="upload_done">Done</string>
+
+    <string name="getting_event_list">الحصول على قائمة الأحداث ...</string>
+    <string name="updating_going_status">تحديث ذاهب الى وضع الحدث ...</string>
+    <string name="description_event">وصف:</string>
+    <string name="vanue_event">مكان:</string>
+    <string name="cost_event">كلفة:</string>
+    <string name="date_event">تاريخ:</string>
+    <string name="time_event">زمن:</string>
+    <string name="event_name">اسم الحدث:</string>
+    <string name="gender_event">جنس:</string>
+    <string name="event_list">قائمة الأحداث</string>
+    <string name="event_calendar">تقويم الحدث</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="jan">كانون الثاني</string>
+    <string name="feb">شهر فبراير</string>
+    <string name="march">مارس</string>
+    <string name="april">أبريل</string>
+    <string name="may">قد</string>
+    <string name="june">يونيو</string>
+    <string name="jul">يوليو</string>
+    <string name="aug">أغسطس</string>
+    <string name="sept">سبتمبر</string>
+    <string name="oct">شهر اكتوبر</string>
+    <string name="nov">شهر نوفمبر</string>
+    <string name="dec">ديسمبر</string>
+    <string name="select_caps">تحديد</string>
+    <string name="event_details">تفاصيل الحدث</string>
+    <string name="select_member_msg">يرجى تحديد عدد من الأعضاء المشاركين في الحزب !!</string>
+    <string name="maybe">يمكن</string>
+    <string name="going">ذاهب</string>
+    <string name="thankyou_msg">شكرا لتقديم المكالمة.</string>
+    <string name="how_many_members_going_msg">كم عدد أعضاء ستشارك؟</string>
+</resources>
+
+

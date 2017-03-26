@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg">
+
+    <!--<include
+       android:id="@+id/header_layout"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       layout="@layout/dialog_header"/>-->
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/terms_cond_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@id/header_layout"
+
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/terms_conditions_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_margin="10dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/decline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_toLeftOf="@+id/cntr"
+            android:layout_toStartOf="@+id/cntr"
+            android:background="@color/button_deactive"
+            android:text="@string/decline"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/cntr"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:background="#098987" />
+
+        <Button
+            android:id="@+id/agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/cntr"
+            android:layout_toRightOf="@+id/cntr"
+            android:background="@color/button_active"
+            android:elevation="5dp"
+            android:text="@string/accept"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

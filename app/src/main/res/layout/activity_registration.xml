@@ -1,0 +1,641 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.sr.masharef.masharef.registration.RegistrationActivity">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_layout"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/action_layout"
+            android:scrollbars="none"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/vila_lay"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/villa_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/villa_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="160dp"
+                            android:id="@+id/villa_no_inp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_centerVertical="true"
+                            android:theme="@style/Theme.App.Base"
+                            android:textColorHint="@color/white"
+                            android:layout_marginLeft="35dp"
+                            >
+                            <EditText
+                                android:id="@+id/villa_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="text"
+                                android:hint="@string/villa_no"
+                                android:textColor="@color/white"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                        <RelativeLayout
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_width="105dp"
+                            android:background="@drawable/border"
+                            android:layout_alignBottom="@+id/villa_no_inp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="5dp"
+                            android:layout_height="45dp">
+
+                            <Spinner
+                                android:layout_alignParentRight="true"
+                                android:id="@+id/spinnerVillaNum"
+                                android:theme="@style/Theme.App.SpinnerBroder"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                             />
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/phase_no_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/phase_number" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/spinnerRLayout"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:background="@drawable/border">
+
+                            <Spinner
+                                android:layout_alignParentRight="true"
+                                android:id="@+id/spinnerPhaseNum"
+                                android:layout_centerVertical="true"
+                                android:paddingLeft="5dp"
+                                android:theme="@style/Theme.App.SpinnerBroder"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                        </RelativeLayout>
+                       <!-- <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/phase_no"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="text"
+                                android:ems="10"
+                                android:hint="@string/phase_no"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>-->
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/first_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/first_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"
+                                android:ems="10"
+                                android:hint="@string/first_name"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/last_name_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/user_ic" />
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/last_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences|textPersonName"
+                                android:ems="10"
+                                android:hint="@string/last_name"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="5dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/gender_rdo_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:theme="@style/Theme.App.Base"
+                        android:padding="10dp">
+
+                        <RadioButton
+                            android:id="@+id/male_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male"
+
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/female_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/radioButton"
+                            android:layout_marginStart="30dp"
+                            android:layout_toEndOf="@+id/radioButton"
+                            android:text="@string/female"
+                            android:textColor="@color/white" />
+
+                    </RadioGroup>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp">
+
+                        <ImageView
+                            android:id="@+id/email_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/ic_email" />
+
+                        <!--<EditText
+                            android:id="@+id/email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/email_icon"
+                            android:ems="10"
+                            android:hint="@string/email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white" />-->
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:ems="10"
+                                android:hint="@string/email"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="8dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/confirm_email_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/ic_email" />
+
+                        <!--<EditText
+                            android:id="@+id/confirm_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/confirm_email_icon"
+                            android:ems="10"
+                            android:hint="@string/confirm_email"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white" />-->
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/confirm_email"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textEmailAddress"
+                                android:ems="10"
+                                android:hint="@string/confirm_email"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="8dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/password_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/password_ic" />
+
+                        <!-- <EditText
+                             android:id="@+id/password"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="10dp"
+                             android:layout_toRightOf="@+id/password_icon"
+                             android:ems="10"
+                             android:hint="@string/password"
+                             android:inputType="textPassword"
+                             android:textColor="@color/white"
+                             android:textColorHint="@color/white" />-->
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:ems="10"
+                                android:hint="@string/password"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="3dp"/>
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/confirm_password_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@null"
+                            android:src="@mipmap/password_ic" />
+
+                        <!--<EditText
+                            android:id="@+id/confirm_password"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/confirm_password_icon"
+                            android:ems="10"
+                            android:hint="@string/confirm_password"
+                            android:inputType="textPassword"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white" />-->
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/Theme.App.Base"
+                            android:layout_marginLeft="35dp"
+                            android:textColorHint="@color/white">
+                            <EditText
+                                android:id="@+id/confirm_password"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword"
+                                android:ems="10"
+                                android:hint="@string/confirm_password"
+                                android:textColor="@color/white"
+                                android:layout_marginBottom="3dp"/>
+                        </android.support.design.widget.TextInputLayout>
+                    </RelativeLayout>
+
+
+                    <RadioGroup
+                        android:id="@+id/owner_renter_rdo_group"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:padding="10dp"
+                        android:theme="@style/Theme.App.Base"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/owner_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/i_am_the_owner"
+
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/renter_rdo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/i_am_a_renter"
+
+                            android:textColor="@color/white" />
+
+                    </RadioGroup>
+
+
+                    <RelativeLayout
+                        android:id="@+id/select_owner_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:layout_marginTop="25dp"
+                        android:padding="10dp"
+                        android:visibility="gone"
+                        >
+
+                        <TextView
+                            android:id="@+id/owner_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/owner_detail"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"/>
+                        <View
+                            android:id="@+id/ownerdetail_seperator"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="5dp"
+                            android:layout_below="@+id/owner_detail"
+                            android:background="@color/list_row_color2"/>
+
+                        ///
+
+                        <RelativeLayout
+                            android:id="@+id/ownerNameRL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/ownerdetail_seperator"
+                            android:layout_marginTop="10dp">
+                            <ImageView
+                                android:id="@+id/first_name_icon_owner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/user_ic" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:theme="@style/Theme.App.Base"
+                                android:layout_marginLeft="35dp"
+                                android:textColorHint="@color/white">
+                                <EditText
+                                    android:id="@+id/first_name_owner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textCapSentences"
+                                    android:ems="10"
+                                    android:hint="@string/first_name"
+                                    android:textColor="@color/white"
+                                    android:layout_marginBottom="5dp"/>
+                            </android.support.design.widget.TextInputLayout>
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/ownerLastNameRL"
+                            android:layout_below="@+id/ownerNameRL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/last_name_icon_owner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/user_ic" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:theme="@style/Theme.App.Base"
+                                android:layout_marginLeft="35dp"
+                                android:textColorHint="@color/white">
+                                <EditText
+                                    android:id="@+id/last_name_owner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textCapSentences|textPersonName"
+                                    android:ems="10"
+                                    android:hint="@string/last_name"
+                                    android:textColor="@color/white"
+                                    android:layout_marginBottom="5dp"/>
+                            </android.support.design.widget.TextInputLayout>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/ownerPhoneNumber"
+                            android:layout_below="@+id/ownerLastNameRL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/phone_icon_owner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/ic_phone" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:theme="@style/Theme.App.Base"
+                                android:layout_marginLeft="35dp"
+                                android:textColorHint="@color/white">
+                                <EditText
+                                    android:id="@+id/phone_number_owner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:hint="@string/Phone_number"
+                                    android:textColor="@color/white"
+                                    android:inputType="phone"
+                                    android:maxLength="12"
+                                    android:layout_marginBottom="5dp"/>
+                            </android.support.design.widget.TextInputLayout>
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/owner_email"
+                            android:layout_below="@+id/ownerPhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp">
+
+                            <ImageView
+                                android:id="@+id/email_icon_owner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:contentDescription="@null"
+                                android:src="@mipmap/ic_email" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:theme="@style/Theme.App.Base"
+                                android:layout_marginLeft="35dp"
+                                android:textColorHint="@color/white">
+                                <EditText
+                                    android:id="@+id/email_owner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textCapSentences|textPersonName"
+                                    android:ems="10"
+                                    android:hint="@string/email"
+                                    android:textColor="@color/white"
+                                    android:layout_marginBottom="5dp"/>
+                            </android.support.design.widget.TextInputLayout>
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <RelativeLayout
+            android:id="@+id/action_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/button_active"
+                android:text="@string/register"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

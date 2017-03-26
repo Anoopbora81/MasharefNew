@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_avatar"
+            android:id="@+id/personImage"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:weightSum="5"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:text="@string/name"
+                        style="@style/M_TextViewLabelStyle"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                    <TextView
+                        android:id="@+id/personName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        style="@style/M_TextViewFieldStyle"
+                        android:layout_weight="3.2"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/list_row_color2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="5"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:text="@string/occupation_withcolon"
+                        style="@style/M_TextViewLabelStyle"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.2"
+                        android:maxLines="1"
+                        style="@style/M_TextViewFieldStyle"
+                        android:id="@+id/personOccupation"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/list_row_color2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:weightSum="5"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:text="@string/workplace_withcolon"
+                        style="@style/M_TextViewLabelStyle"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.2"
+                        android:id="@+id/personWorkplace"
+                        android:lines="1"
+                        android:ellipsize="marquee"
+                        android:fadingEdge="horizontal"
+                        android:scrollHorizontally="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:freezesText="true"
+                        android:marqueeRepeatLimit ="marquee_forever"
+                        style="@style/M_TextViewFieldStyle"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/list_row_color2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="20dp"
+                    android:weightSum="5"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.8"
+                        android:text="@string/mobile_no"
+                        style="@style/M_TextViewLabelStyle"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="3.2"
+                        android:id="@+id/personMobile"
+                        style="@style/M_TextViewFieldStyle"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/list_row_color2"/>
+
+                <!--    <Button
+                        android:id="@+id/buttonRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:text="Rating"
+                        android:layout_gravity="center"/>-->
+                <!--    <RatingBar
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/myRatingBar" style="@style/customRatingBar"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>-->
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_border"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <!---->
+
+                    <LinearLayout
+                        android:id="@+id/rating_barLayout_detail"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_centerInParent="true"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="@string/current_rating"/>
+
+                        <LinearLayout
+                            android:layout_marginTop="3dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+                            <ImageView
+                                android:id="@+id/star_detail1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/empty_star2"/>
+                            <ImageView
+                                android:id="@+id/star_detail2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/empty_star2"
+                                android:layout_marginLeft="5dp"/>
+                            <ImageView
+                                android:id="@+id/star_detail3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/empty_star2"
+                                android:layout_marginLeft="5dp"/>
+                            <ImageView
+                                android:id="@+id/star_detail4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/empty_star2"
+                                android:layout_marginLeft="5dp"/>
+                            <ImageView
+                                android:id="@+id/star_detail5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/empty_star2"
+                                android:layout_marginLeft="5dp"/>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/rateUser"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"/>
+                    </LinearLayout>
+                    <!---->
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        <!-- <View
+             android:layout_width="match_parent"
+             android:layout_height="2dp"
+             android:layout_marginTop="100dp"
+             android:layout_marginBottom="25dp"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp"
+             android:background="#000000"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

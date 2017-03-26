@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <!-- <RelativeLayout
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">-->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/how_many_members_going_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        style="@style/M_TextViewDialog"
+        android:id="@+id/textView" />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/spinnerLayoutFamily"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_border"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView">
+    <Spinner
+        android:layout_margin="5dp"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--<Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/buttonDone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerLayoutFamily"
+        android:layout_alignParentEnd="true"
+        android:text="Done"
+        android:background="@color/button_active"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/buttonCancelF"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/spinnerLayoutFamily"
+        android:layout_alignParentStart="true"
+        android:background="@color/button_deactive"
+        android:textColor="@color/white"
+       /> -->
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/spinnerLayoutFamily"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/buttonCancelF"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextUsername"
+                android:layout_alignParentStart="true"
+                android:background="@color/button_deactive"
+                style="@style/M_TextViewWhiteButton"
+                android:text="@string/forgot_cancel" />
+
+            <Button
+                android:layout_marginRight="10dp"
+                android:id="@+id/buttonDone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/done"
+                android:background="@color/button_active"
+                android:layout_below="@+id/editTextUsername"
+                android:layout_toRightOf="@+id/buttonCancelF"
+                style="@style/M_TextViewWhiteButton" />
+        </LinearLayout>
+
+  <!--  </RelativeLayout>-->
+
+
+</RelativeLayout>

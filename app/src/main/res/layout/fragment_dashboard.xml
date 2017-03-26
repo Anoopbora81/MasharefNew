@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dashboard_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/event_layout"
+                android:layout_toLeftOf="@+id/cntr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/cal_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_calendar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/cal_icon"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_event"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/cntr"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                />
+
+            <RelativeLayout
+                android:id="@+id/phonebook_layout"
+                android:layout_toRightOf="@+id/cntr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_dash_phone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phone_icon"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_phonebook"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+        <!--2-->
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/chat_layout"
+                android:layout_toLeftOf="@+id/cntr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/chat_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_chat" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/chat_icon"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_chat"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/cntr2"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                />
+
+            <RelativeLayout
+                android:id="@+id/gallery_layout"
+                android:layout_toRightOf="@+id/cntr2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/gallary_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_gallery" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/gallary_icon"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_gallery"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <!--3-->
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/voting_layout"
+                android:layout_toLeftOf="@+id/cntr3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/voting_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_voting_system" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/voting_icon"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_voting_system"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/cntr3"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                />
+
+            <RelativeLayout
+                android:id="@+id/que_n_form_layout"
+                android:layout_toRightOf="@+id/cntr3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="20dp"
+                android:background="@drawable/dash_border_white">
+
+                <ImageView
+                    android:id="@+id/ques_n_form_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/ic_questionnaire_and_forms" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ques_n_form_icon"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/dash_forms"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

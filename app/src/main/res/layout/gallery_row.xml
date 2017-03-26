@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/main_layout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        <ImageView
+            android:id="@+id/gallery_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp" />
+
+
+
+        <TextView
+            android:id="@+id/gallery_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/gallery_icon"
+            android:gravity="center_vertical"
+            android:minLines="2"
+            android:text="India"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            />
+        <!--style="@style/M_TextViewLabelStyle" -->
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

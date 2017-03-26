@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Distribution Path -->
+<!--    <string name="api_server">masharef.systemrapid.systems</string>-->
+
+    <!-- Pre Prod Path -->
+      <string name="api_server">mashareftest.systemrapid.systems</string>
+
+    <!-- Vicky Path -->
+    <!--<string name="api_server">192.168.1.17</string>-->
+
+
+    <string name="api_version">jsonapi</string>
+
+    <string name="default_forget_password_url">url</string>
+    <string name="invalid_protocol">Invalid protocol. Please use https as a protocol.</string>
+    <string name="invalid_certificate_msg">Invalid Certificate Authority. Please use CertifiedAuthority as a Certificate Authority option.</string>
+
+    <string name="get_user_detail_api">getuser</string>
+    <string name="update_user_detail_api">updateUser</string>
+    <string name="update_password_detail_api">updatePassword</string>
+    <string name="checkout_api">User/checkout</string>
+    <string name="mobile_register_api">mobileregister</string>
+    <string name="mobile_code_verify_api">mobilecodeverify</string>
+
+    <string name="login_api">login</string>
+    <string name="registration_api">register</string>
+    <string name="get_owner_list_api">getOwnerList</string>
+    <string name="terms_conditions_accept_api">accepttermsandconditions</string>
+    <string name="terms_conditions_get_cust_api">gettermsandconditions</string>
+
+
+    <string name="postmemberinfo_api">postmemberinfo</string>
+    <string name="postotherinfo_api">postotherinfo</string>
+
+    <string name="addsubaccount_api">addsubaccount</string>
+
+    <string name="get_phonebook_category_api">getcategory</string>
+    <string name="get_pb_getcontactlist_api">getcontactlist</string>
+    <string name="add_contact_api">addcontact</string>
+
+    <string name="get_event_list_api">geteventlist</string>
+    <string name="get_gallery_api">getgallary</string>
+    <string name="going_event_status_api">goingeventstat </string>
+    <string name="join_event_api">joinevent</string>
+
+    <string name="get_country_list_api">getcountrylist</string>
+    <string name="submitContactRating">submitContactRating</string>
+    <string name="forgetPasswordapi">forgotPassword</string>
+    <string name="getPhaseListapi">getPhaseList</string>
+    <string name="uploadmedia">uploadmedia</string>
+    <string name="registerDeviceTokenNotification">registerDeviceNotification</string>
+</resources>

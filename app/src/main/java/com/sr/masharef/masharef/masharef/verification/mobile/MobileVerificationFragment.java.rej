@@ -1,0 +1,9 @@
+diff a/Masharef/app/src/main/java/com/sr/masharef/masharef/verification/mobile/MobileVerificationFragment.java b/Masharef/app/src/main/java/com/sr/masharef/masharef/verification/mobile/MobileVerificationFragment.java	(rejected hunks)
+@@ -231,7 +231,6 @@
+ 			Log.e(e.getMessage()+" At verifyMobileNumberOnTap() module of MobileVerificationFragment.");
+ 		}*/
+ 
+-		String internationalNumber	= "+"+phone.countryCode+phoneTxt;
+ 		String internationalNumber	= "+"+phone.countryISN+currentNumber;
+ 		String nationalNumber		= currentNumber;
+ 		phone.nationalNumber		= nationalNumber;

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#273846</color>
+    <color name="colorPrimaryDark">#1f2d38</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="orange">#FFA500</color>
+
+    <color
+        name="white">#FFFFFF</color>
+    <color
+        name="black">#000000</color>
+    <color
+        name="symptom_color_selected">#003366</color>
+    <color
+        name="reaction_color_selected">#003366</color>
+    <color name="static_text_color">#003366</color>
+    <color name="journal_entry_listitem_text_color">#003366</color>
+    <color name="note_text_disabled">#333333</color>
+    <color name="list_row_color">#809090</color>
+
+    <color name="contacts_list__color">#eeeeee</color>
+    <color name="button_active">#F7A985</color>
+    <color name="button_deactive">#334858</color>
+    <color name="text_color_orange">#f39872</color>
+    <color name="list_row_color2">#b0b0b0</color>
+    <color name="color_no_button">#e74c3c</color>
+    <color name="color_line_seperator">#a6a6a6</color>
+    <color name="white_background">#FaFaFa</color>
+    <color name="white_background_icon">#FeFeFe</color>
+    <color name="view_inactive">#DCDCDC</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+</resources>

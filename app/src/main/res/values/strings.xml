@@ -1,0 +1,309 @@
+<resources>
+
+
+    <string name="app_name">Masharef</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--  -->
+    <string name="no_internet">No internet connection found.</string>
+    <string name="unknown_error">An unknown error has occured.</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="app_common_error_msg">Oops! Something went wrong. Please try again.</string>
+
+    <!---->
+    <string name="error">Error</string>
+
+
+
+    <string name="permission_info_note">         
+        &lt;p>&lt;b>Note:&lt;/b> If you had previously Denied the permission after checking the &lt;b>Never ask again&lt;/b> option. Then please go to &lt;b>Settings > Apps > %1$s > Permissions&lt;/b> &amp;amp; enable it from there.&lt;/p>         
+    </string>
+    <string name="permission_info">Permission Access Request</string>
+
+
+    <string name="proceed">Proceed</string>
+    <string name="scontinue">Continue</string>
+    <string name="quit">Quit</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- API Process States -->
+
+    <string name="preparing_req">Preparing the Request...</string>
+    <string name="sending_req">Sending the Request...</string>
+    <string name="receiving_data">Receiving Data...</string>
+    <string name="processing_data">"Processing Data..."</string>
+
+    <string name="null_response_msg">"Null Response Found."</string>
+    <string name="default_response_error_msg">"Something went wrong. Please try again."</string>
+
+    <string name="null_request_url_msg">"No Request URL Found."</string>
+
+
+    <!---->
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="loading">Loading</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_msg">Are you sure you want to log out?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+
+
+    <!---->
+
+    <string name="adult">Adult</string>
+    <string name="kids">Kids</string>
+    <string name="servent">Servent</string>
+    <string name="drivers">Drivers</string>
+    <!---->
+
+    <string name="enter_verification_code">Enter your verification code</string>
+    <string name="sent_msg_title">We sent a text message to %1$s with a code</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="verify">CONFIRM</string>
+    <string name="did_not_recieve_msg_txt">Didn\'t recieve a text message from Zyllem?</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="invalid_mobile_code_msg">Verification code entered is invalid please re enter.</string>
+
+    <string name="accept">ACCEPT</string>
+    <string name="search">Search</string>
+    <string name="decline">decline</string>
+
+    <string name="send_veri_msg_code">GET OTP</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="country_code">Country\nCode</string>
+    <string name="select">Select</string>
+    <string name="send_sms_msg">Please enter your phone number below, so we can send you a verification code via SMS</string>
+
+    <string name="confirm_your_number">Confirm your number</string>
+    <string name="confirm_otp">Confirm OTP</string>
+    <string name="with">with</string>
+    <string name="processing_number">Processing Number...</string>
+    <string name="processing_upload">Processing Upload...</string>
+    <string name="processing_code">Processing Code...</string>
+    <string name="select_country">Select a Country</string>
+    <string name="number_not_valid">Number not valid</string>
+    <string name="register">Register</string>
+    <string name="save_and_continoue">Save &amp; Continoue</string>
+    <string name="skip">Skip</string>
+    <string name="refresh">Refresh</string>
+    <string name="finish">Finish</string>
+    <string name="otp">Enter OTP</string>
+    <string name="add">Add</string>
+
+
+    <!---->
+
+    <string name="wait">Please wait ..</string>
+
+    <string name="registering">Registering</string>
+    <string name="registration">Registration</string>
+    <string name="sign_up_for_masharef">Sign Up for Masharef</string>
+    <string name="old_email">Old Email</string>
+    <string name="new_email">New Email</string>
+
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm Email</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="gallery_private">Private</string>
+    <string name="gallery_public">Public</string>
+
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- validation -->
+    <string name="login">Login</string>
+    <string name="please_enter">Please enter %1$s</string>
+    <string name="invalid">Invalid %1$s</string>
+    <string name="login_error">Login Error</string>
+    <string name="registration_error">Registration Error</string>
+    <string name="success">Success</string>
+    <string name="atlease_digits_required">%1$s should have at least %2$d digits.</string>
+    <string name="both_element_should_be_same">%1$s and %2$s should be same</string>
+    <string name="only_integer_required">%1$s should have only integer.</string>
+    <string name="tell_a_friend">Tell a Friend</string>
+    <string name="invite">Invite</string>
+
+
+    <string name="villa_no">Villa Number</string>
+    <string name="phase_no">Phase Number</string>
+    <string name="user_name">Email Id</string>
+
+
+    <string name="signing_in">Signing In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="event">Events</string>
+    <string name="chat">Chat</string>
+    <string name="phonebook">Phonebook</string>
+    <string name="gallary">Gallery</string>
+    <string name="voting">Voting</string>
+    <string name="question_and_form">Forms</string>
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="select_owner">Select Owner</string>
+    <string name="user_detail">User Detail</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_email">Change Email</string>
+    <string name="i_am_a_renter">I am a Renter</string>
+    <string name="i_am_the_owner">I am the Owner</string>
+
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="other_information">Other Information</string>
+    <string name="member_information">Member Information</string>
+    <string name="updating_profile">Updating Profile</string>
+    <string name="checking_profile">Checking Profile</string>
+    <string name="account_review">Account Review</string>
+    <string name="owner_not_found">Owner Not Found</string>
+    <string name="add_sub_account">Add Sub Account</string>
+
+
+    <string name="getting_pb_category">Getting Category...</string>
+    <string name="getting_gallery">Getting Galley...</string>
+    <string name="getting_pb_contacklist">Getting ContactList...</string>
+    <string name="adding_contact">Adding Contact...</string>
+
+    <string name="contact_number">Contact Number</string>
+    <string name="workplace">Workplace</string>
+
+    <string name="landline_no">Landline Number</string>
+    <string name="occupation">Occupation</string>
+
+    <string name="work_institute">Work Institute</string>
+    <string name="work_address">Work Address</string>
+    <string name="total_car">Total Number of Cars</string>
+
+
+    <string name="getting_event_list">Getting Event List...</string>
+    <string name="updating_going_status">Updating going to event status...</string>
+    <string name="landline_number">Landline Number</string>
+    <string name="getting_country_list">Getting Country List...</string>
+    <string name="ADDNEW">ADD NEW</string>
+
+    <string name="wait_Approval">Registration process is completed and we are waiting for the Approval of the admin.</string>
+    <string name="ratingstatus">Updating rating for this contact...</string>
+    <string name="update">UPDATE</string>
+    <string name="updating_user">Updating User Profile...</string>
+    <string name="forgetPassword">Sending password to registered mobile number...</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_title">Forgot Password</string>
+
+
+    <string name="owner_detail">Owner Details</string>
+    <string name="Phone_number">Phone Number</string>
+
+    <string name="owner_first_name">Owner First Name</string>
+    <string name="owner_last_name">Owner Last Name</string>
+    <string name="owner_phone_number">Owner Phone Number</string>
+    <string name="owner_email">Owner Email</string>
+
+    <string name="forgot_password_en">Forgot Your Password?</string>
+    <string name="forgot_click">Click here</string>
+    <string name="forgot_submit">Submit</string>
+    <string name="forgot_cancel">Cancel</string>
+    <string name="getting_phase_number">Getting Phase list...</string>
+    <string name="select_phase">Select Phase</string>
+    <string name="or">OR</string>
+
+    <string name="dash_phonebook">Phonebook</string>
+    <string name="dash_chat">Chat</string>
+    <string name="dash_gallery">Gallery</string>
+    <!--<string name="dash_voting_system">Voting System\n</string>-->
+    <string name="dash_voting_system">Voting</string>
+    <!--<string name="dash_questionnaire_and_forms">Questionnaire and Forms</string>-->
+    <string name="dash_forms">Forms</string>
+    <!--<string name="dash_event_n_calendar">Event \n &amp; Calendar</string>-->
+    <string name="dash_event">Events</string>
+
+    <string name="villa_no_msg">Please enter villa number</string>
+    <string name="user_name_msg">Please enter username</string>
+    <string name="ar">AR</string>
+
+
+    <string name="gallery_upload_success">Upload Success</string>
+    <string name="upload_done">Done</string>
+
+    <string name="phone_workplace">Workplace:</string>
+    <string name="name">Name:</string>
+    <string name="current_rating">Current Rating</string>
+    <string name="rate">Rate </string>
+    <string name="occupation_withcolon">Occupation:</string>
+    <string name="workplace_withcolon">Workplace:</string>
+    <string name="mobile_no">Mobile No:</string>
+    <string name="write_a_short_review">Write a short review</string>
+    <string name="rate_to">Rate to </string>
+    <string name="select_occupation">Select Occupation</string>
+    <string name="rating_submit">rating submitted to server !!</string>
+    <string name="select_category">Select Category</string>
+    <string name="reques_addding_contact">Request send for addding contact!!</string>
+    <string name="in_progress_msg">We are working on this exciting new feature!</string>
+    <string name="we_will_be_let_you">We will let you know once it\'s ready</string>
+    <string name="ok">OK</string>
+    <string name="enployee">Employee</string>
+    <string name="businessperson">Businessperson</string>
+    <string name="retired">Retired</string>
+    <string name="other">Other</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="communicate">Communicate</string>
+    <string name="regsister_gender">Select Gender</string>
+    <string name="register_owner">Select Owner or Renter</string>
+    <string name="select_country_code">Select Country Code</string>
+    <string name="select_relation">Select relation</string>
+    <string name="not_any_contact_added">There is not any contact added for this categeory !!</string>
+    <string name="event_name">Event Name:</string>
+    <string name="description_event">Description:</string>
+    <string name="vanue_event">Venue:</string>
+    <string name="gender_event">Gender:</string>
+    <string name="cost_event">Cost:</string>
+    <string name="date_event">Date:</string>
+    <string name="time_event">Time:</string>
+    <string name="event_list">Event List</string>
+    <string name="event_calendar">Event Calendar</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="jul">July</string>
+    <string name="aug">August</string>
+    <string name="sept">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+    <string name="select_caps">SELECT</string>
+    <string name="event_details">Event Details</string>
+    <string name="select_member_msg">Please select number of members participating in party!!</string>
+    <string name="maybe">يمكن</string>
+    <string name="going">ذاهب</string>
+    <string name="thankyou_msg">Thank you for submitting your call.</string>
+    <string name="how_many_members_going_msg">How many members will be participating?</string>
+    <string name="voting_system">Voting System</string>
+    <string name="voting_conform_dailog">Are You sure, do you want to vote the selected member?.</string>
+    <string name="choose_voting_member">Please select any one member to proceed</string>
+
+</resources>

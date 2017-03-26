@@ -1,0 +1,20 @@
+<selector
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--<item
+		android:state_pressed="true"
+		android:drawable="@drawable/calendar_bg_orange" /> &lt;!&ndash; pressed &ndash;&gt;
+	<item
+		android:state_focused="true"
+		android:drawable="@drawable/calendar_bg_orange" /> &lt;!&ndash; focused &ndash;&gt;
+	<item
+		android:drawable="@drawable/calendar_tile_small" /> &lt;!&ndash; default &ndash;&gt;-->
+
+	<item
+		android:state_pressed="true"
+		android:drawable="@drawable/ic_click_date" /> <!-- pressed -->
+	<item
+		android:state_focused="true"
+		android:drawable="@drawable/ic_click_date" /> <!-- focused -->
+	<!--<item
+		android:drawable="@drawable/calendar_tile_small" />  default -->
+</selector>

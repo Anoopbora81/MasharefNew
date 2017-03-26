@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img_reg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.sr.masharef.masharef.masharef.com.sr.masharef.masharef.registration.RegistrationActivity">
+
+    <include
+        android:id="@+id/header_layout"
+        layout="@layout/dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/ic_adults" />
+
+                <RelativeLayout
+                    android:id="@+id/adult_spinner_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:background="@drawable/border">
+
+                    <Spinner
+                        android:id="@+id/adult_spinner"
+                        android:layout_width="wrap_content"
+                        android:theme="@style/Theme.App.SpinnerBroder"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true" />
+
+                </RelativeLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/adult_spinner_lay"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@color/button_active" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/adult"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="25dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/ic_kids" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kids"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/kids_spinner_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/border">
+
+                <Spinner
+                    android:id="@+id/kids_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:theme="@style/Theme.App.SpinnerBroder"
+                    android:layout_centerVertical="true"
+                    android:text="1" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@+id/password"
+                    android:layout_alignStart="@+id/password"
+                    android:layout_below="@id/kids_spinner_lay"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@color/button_active" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/ic_servents" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/servent"
+                    android:layout_marginStart="95dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white" />
+
+            <RelativeLayout
+                android:id="@+id/servent_spinner_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/border">
+
+                <Spinner
+                    android:id="@+id/servent_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:theme="@style/Theme.App.SpinnerBroder"
+                    android:layout_centerVertical="true"
+                    android:text="1" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@+id/password"
+                    android:layout_alignStart="@+id/password"
+                    android:layout_below="@id/servent_spinner_lay"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@color/button_active" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@mipmap/ic_drivers" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drivers"
+                    android:layout_marginStart="97dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white" />
+
+
+            <RelativeLayout
+                android:id="@+id/driver_spinner_lay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/border">
+
+                <Spinner
+                    android:id="@+id/driver_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:theme="@style/Theme.App.SpinnerBroder"
+                    android:layout_centerVertical="true"
+                    android:text="1" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignLeft="@+id/password"
+                    android:layout_alignStart="@+id/password"
+                    android:layout_below="@id/driver_spinner_lay"
+
+                    android:layout_marginTop="5dp"
+                    android:background="@color/button_active" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="@color/button_active"
+            android:text="@string/save_and_continoue"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

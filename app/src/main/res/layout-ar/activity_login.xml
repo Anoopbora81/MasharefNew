@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_img"
+
+    tools:context="com.sr.masharef.masharef.login.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/bg_logo" />
+
+    <ScrollView
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="41dp"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp">
+
+      <!--  <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/villa_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@mipmap/villa_ic" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:theme="@style/Theme.App.Base"
+                android:textColorHint="@color/white"
+                android:layout_toLeftOf="@+id/villa_icon"
+                android:layout_marginRight="20dp">
+                <EditText
+                    android:id="@+id/villa_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    android:ems="10"
+                    android:hint="@string/villa_no"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="5dp"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>-->
+        <RelativeLayout
+            android:id="@+id/vila_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/villa_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@mipmap/villa_ic" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="160dp"
+                android:id="@+id/villa_no_inp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:theme="@style/Theme.App.Base"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="35dp"
+                >
+                <EditText
+                    android:id="@+id/villa_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    android:ems="10"
+                    android:maxLength="10"
+                    android:hint="@string/villa_no"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginBottom="5dp"/>
+            </android.support.design.widget.TextInputLayout>
+         <!--   <RelativeLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_width="105dp"
+                android:background="@drawable/border"
+                android:layout_alignBottom="@+id/villa_no_inp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_height="45dp">
+                <Spinner
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/spinnerVillaNumLogin"
+                    android:theme="@style/Theme.App.SpinnerBroder"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>-->
+            <RelativeLayout
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:layout_width="105dp"
+                android:background="@drawable/border"
+                android:layout_alignBottom="@+id/villa_no_inp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_height="45dp">
+
+                <Spinner
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/spinnerVillaNumLogin"
+                    android:theme="@style/Theme.App.SpinnerBroder"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@mipmap/user_ic" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:theme="@style/Theme.App.Base"
+                android:textColorHint="@color/white"
+                android:layout_toLeftOf="@+id/user_icon"
+                android:layout_marginRight="20dp">
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:hint="@string/user_name"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="5dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/pass_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@mipmap/password_ic" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:theme="@style/Theme.App.Base"
+                android:textColorHint="@color/white"
+                android:layout_toLeftOf="@+id/pass_icon"
+                android:layout_marginRight="20dp">
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="5dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content_layout"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="35dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv"
+            android:layout_alignStart="@+id/register"
+            android:background="@color/button_active"
+            android:textColor="@color/white"
+            android:text="@string/login" />
+
+        <!--<TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="11dp"
+            android:text="OR" />-->
+       <!-- <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="@string/forgot_password_en" />-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="35dp"
+            android:paddingRight="55dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="@string/forgot_password_en" />
+
+            <TextView
+                android:id="@+id/forgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:textColor="#51b7cf"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:text="@string/forgot_click" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/or"
+                android:layout_weight="1"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.5dp"
+                android:layout_weight="2"
+                android:background="@color/white"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/white"
+            android:background="@color/button_deactive"
+            android:text="@string/register" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/multi_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/login_button_layout">
+
+        <ImageView
+            android:id="@+id/multi_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/globe" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/multi_image"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

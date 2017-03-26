@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/id_check_thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@mipmap/check_thanks" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_check_thanks"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialog_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text= "Thank you for submitting your call."
+            android:gravity="center"
+            style="@style/M_TextViewDialog"/>
+
+
+        <Button
+            android:id="@+id/buttonDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/button_active"
+            android:text="OK"
+            android:layout_marginTop="15dp"
+            style="@style/M_TextViewWhiteButton"/>
+    </LinearLayout>
+</RelativeLayout>

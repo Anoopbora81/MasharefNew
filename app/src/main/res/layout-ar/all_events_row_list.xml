@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_viewEventsList"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="7dp"
+        card_view:contentPadding="10dp"
+        card_view:cardElevation="0dp"
+        android:background="@color/white_background">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:id="@+id/eventNameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:text="@string/event_name"
+                    style="@style/M_TextViewLabelStyle"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color_orange"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"     />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    style="@style/M_TextViewFieldStyle"
+                    android:id="@+id/textViewAllEventName"
+                    android:textColor="@color/text_color_orange"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_margin="5dp"
+                android:id="@+id/viewLineSeperator"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/eventNameLayout"
+                android:layout_height="0.75dp"
+                android:background="@color/color_line_seperator"/>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:id="@+id/descriptionLayout"
+                android:layout_below="@+id/viewLineSeperator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+                <TextView
+                    style="@style/M_TextViewLabelStyle"
+                    android:text="@string/description_event"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    style="@style/M_TextViewFieldStyle"
+                    android:id="@+id/textViewAllDescription"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:id="@+id/vanueLayout"
+                android:layout_below="@+id/descriptionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/M_TextViewLabelStyle"
+                    android:text="@string/vanue_event"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    style="@style/M_TextViewFieldStyle"
+                    android:id="@+id/textViewAllVanue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:id="@+id/genderLayout"
+                android:layout_below="@+id/vanueLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    style="@style/M_TextViewLabelStyle"
+                    android:text="@string/gender_event"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    style="@style/M_TextViewFieldStyle"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewAllGender" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:id="@+id/costLayout"
+                android:layout_below="@+id/genderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <TextView
+                    style="@style/M_TextViewLabelStyle"
+                    android:text="@string/cost_event"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="40dp"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    style="@style/M_TextViewFieldStyle"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewAllCost" />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/white_background_icon"
+                android:orientation="horizontal"
+                android:layout_below="@+id/costLayout"
+                android:id="@+id/dateAndTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:id="@+id/dateAllEvent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/date"/>
+                    <TextView
+                        android:id="@+id/textViewAllEventsDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        style="@style/M_TextViewFieldStyle"
+                        android:text="02 Feb 2017"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:background="@color/white_background_icon"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:id="@+id/timeAllEvent"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/clock"/>
+                    <TextView
+                        android:id="@+id/textViewAllEventsTime"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/M_TextViewFieldStyle"
+                        android:layout_gravity="center"
+                        android:text="12:02:00"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+

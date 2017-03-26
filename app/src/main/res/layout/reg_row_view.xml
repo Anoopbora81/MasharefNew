@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+    
+    
+    <RelativeLayout 
+        android:id="@+id/inner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        
+        <ImageView 
+	        android:id="@+id/edit_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:contentDescription="@null"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginEnd="10dp"
+	        android:src="@drawable/ic_menu_send"/>
+	    
+	    <EditText 
+	        android:id="@+id/data_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="40dp"
+	        android:singleLine="true"
+	        android:layout_toRightOf="@+id/edit_icon"
+	        android:layout_toEndOf="@+id/edit_icon"
+	        android:paddingRight="30dp"
+	        android:paddingEnd="30dp"
+	        android:paddingLeft="0dp"
+	        android:paddingStart="0dp"
+	        android:layout_marginRight="5dp"
+	        android:layout_marginEnd="5dp"
+	        android:background="@null"
+
+	        android:hint="@string/done"
+
+	        android:textSize="16sp">
+	   </EditText>     
+	   <View 
+	       android:layout_width="match_parent"
+	       android:layout_height="0.5dp"
+	       android:layout_below="@+id/data_text"
+	       android:layout_alignLeft="@+id/data_text"
+	       android:layout_alignStart="@+id/data_text" 
+	       android:layout_alignRight="@+id/data_text"
+	       android:layout_alignEnd="@+id/data_text"
+
+	       
+	       />
+	    
+	    <ImageView 
+	        android:id="@+id/value_indicator"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignRight="@id/data_text"
+	        android:layout_alignEnd="@id/data_text"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginEnd="10dp"
+	        android:contentDescription="@null"
+	        android:visibility="gone"
+	        android:src="@drawable/ic_menu_camera"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inner_layout"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

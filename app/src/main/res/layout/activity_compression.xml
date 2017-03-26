@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Home"
+    android:orientation="vertical">
+<!--    android:text="-y -i /storage/emulated/0/Download/google.mp3 -ar 44100 -ac 2 -ab 64k -f mp3 /storage/emulated/0/Download/outaudio.mp3"-->
+    <!---y -i /storage/emulated/0/WhatsApp/Media/WhatsApp Video/VID-20170304-WA0009.mp4 -s 320x240 -r 20 -c:v libx264 -preset ultrafast -c:a copy -me_method zero -tune fastdecode -tune zerolatency -strict -2 -b:v 1000k -pix_fmt yuv420p /storage/emulated/0/123out.mp4-->
+  <!--  <EditText
+        android:id="@+id/command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:text="-y -i /storage/emulated/0/DCIM/Camera/VID_20170307_152904382.mp4 -s 320x240 -r 20 -c:v libx264 -preset ultrafast -c:a copy -me_method zero -tune fastdecode -tune zerolatency -strict -2 -b:v 1000k -pix_fmt yuv420p /storage/emulated/0/DCIM/Camera/VID_20170307_5555555.mp4"
+        android:gravity="start" />
+
+    <Button
+        android:id="@+id/run_command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="run"
+        android:padding="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/command_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+-->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="35dp"
+        android:visibility="gone"/>
+</LinearLayout>
